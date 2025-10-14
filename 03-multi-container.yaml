@@ -4,7 +4,7 @@ metadata:
     name: mulicontainer
     labels:
       project:roboshop
-      purpose:mulicontainer
+      purpose:multicontainer
 spec:
   containers:
   - name: nginx
