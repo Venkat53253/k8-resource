@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: pod 
+metadata:
+    name: mulicontainer
+    labels:
+      project:roboshop
+      purpose:mulicontainer
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+  - name: busybox
+    image: busybox
+    command: ["sleep", "3600"]
