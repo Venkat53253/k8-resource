@@ -6,6 +6,7 @@ metadata:
     project: roboshop
     environment: development
     component: sql
+    tier: backend
 spec:
   containers:
   - name: nginx
