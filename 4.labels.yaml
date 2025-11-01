@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Pod
-metadata: labels
+metadata:
   labels:
-    project:roboshop
-    environment:development
-    component:sql
+    project: roboshop
+    environment: development
+    component: sql
 spec:
   containers:
   - name: nginx
