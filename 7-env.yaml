@@ -1,0 +1,17 @@
+apiVersion : v1
+kind: Pod
+metadata:
+  name: environment
+  labels:
+    purpose : demonstrate
+spec: 
+  containers:
+  - name: nginx
+    image: nginx
+    env:
+    - name: COURSE
+      value: k8
+    - name: TRAINER
+      value: "SIVAKUMAR REDDY M"
+
+        
