@@ -7,5 +7,5 @@ metadata: labels
     component:sql
 spec:
   containers:
-  - name: tomcat
-    image: tomcat:9.0
+  - name: nginx
+    image: nginx
