@@ -11,4 +11,5 @@ accessModes:
 storageClassName: "" # This should be empty in static provisioning
 persistentVolumeReclaimPolicy: Retain
   csi:
-    driver: fs-0587a89d2765af7b8
+    driver: efs.csi.aws.com
+    volumeHandle: fs-0587a89d2765af7b8
